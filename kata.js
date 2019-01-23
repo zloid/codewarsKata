@@ -10,3 +10,15 @@ function isIsogram (str) {
 
 console.log(isIsogram('abcdef'));
 
+//solution from other warriors
+/*
+function isIsogram(str){ 
+  return !/(\w).*\1/i.test(str)
+}
+*/
+
+/*
+function isIsogram(str){
+  return new Set(str.toUpperCase()).size == str.length;
+}
+*/
